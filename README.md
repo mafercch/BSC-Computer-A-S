@@ -31,7 +31,7 @@ Before explaining a little of the activity elaborated in class, you will find so
  13.	Don’t set up a proxy and choose automatic security updates.
  14.	Install the GRUB bootloader and finish the installation.
  
-This application and configuration steps were essential to begin the project and carry it out. In the first class was given the first step written in a sheet paper by our teacher Conor McGinn, this was the installation of Ubuntu server as virtual disk in our computer through its page or his pendrive to facilitate a little this process, it took about a couple of hours and immediately while I finished installing following the steps given, we went to the Github.com page for the elaboration of a free profile where our report will be published and he can see the report through a link that the page elaborated.
+This application and configuration steps were essential to begin the project and carry it out. In the first class was given the first step written in a sheet of paper by our teacher Conor McGinn, this was the installation of Ubuntu server as virtual disk in our computer through its page or his pendrive to facilitate a little this process, it took about a couple of hours and immediately while I finished installing following the steps given, we went to the Github.com page for the elaboration of a free profile where our report will be published and he can see the report through a link that the page elaborated.
 
 GitHub is a platform that uses the Git version system to host projects, the code can be stored publicly for free or privately creating a payment account.
 
