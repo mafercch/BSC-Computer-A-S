@@ -53,11 +53,17 @@ Apache is an open source HTTP web server for Unix platforms (BSD, GNU / Linux, e
 
 Already having the ubuntu server installed we started in this second step to install the apache web server using the commands written in classes. The steps followed were.
 
-A.	We enter the command below to install the Apache Web Server: sudo apt-get install apache2 apache2-utils.
+A.	We enter the command below to install the Apache Web Server: 
 
-B.	We want to change our setting so the Apache2 web server will start up at system boot. To do this enter the systemctl enable command. Type the following: sudo systemctl enable apache2.
+# sudo apt-get install apache2 apache2-utils.
 
-C.	We also want to start the service now by entering the command: sudo systemctl start apache2.
+B.	We want to change our setting so the Apache2 web server will start up at system boot. To do this enter the systemctl enable command. Type the following: 
+
+# sudo systemctl enable apache2.
+
+C.	We also want to start the service now by entering the command: 
+
+# sudo systemctl start apache2.
 
 D.	Check that the apache server is running. To see that our VM is visible from our host. Need to turn off our VM and change the configuration in our virtual network adapter. Go to the setting, then go to the network, choose the advanced option and last part click on port forwarding. After being there we must add a new file called apache with a host post the 80 and then accept.
 
@@ -84,51 +90,51 @@ PHP is an open source server-side scripting language mainly used for web develop
 
 A.	Enter the following command to install php and the modules we will need for our Content Management System:
 
-## sudo apt-get install php7.0 php7.0-mysql libapache2-mod-php7.0 php7.0-cli php7.0-cgi php7.0-gd 
+# sudo apt-get install php7.0 php7.0-mysql libapache2-mod-php7.0 php7.0-cli php7.0-cgi php7.0-gd 
 
 B.	When the command is finished running we need to test that PHP is working. We will do this by creating a info.php file in our /var/www/html directory. We are going to create that file and open it in text editor Vi (which we used previously) to insert some basic PHP code to test. Type the command:
 
-## sudo vi /var/www/html/info.php 
+# sudo vi /var/www/html/info.php 
 
 C. This will open a new file called info.php. Press the i key to enter insert mode and then type the following php code in: 
-## <? Php
-## Phpinfo();
-## ?>
+# <? Php
+# Phpinfo();
+# ?>
 
 D.	Press ESC when you’re done entering text then enter the command: 
-## :wq 
+# :wq 
 to save your file and close Vi.
 
 After the steps shown above, the page localhost/php.info opened without any problem, since the steps followed were correct, this page contained some configuration information.
 
-## THIRD STEP
+# THIRD STEP
 
 In the last step was the installation of the WordPress page for the demonstration in class, this page is intended to show that the previous processes were carried out correctly and effectively.
 As we did earlier this step it also had to type some commands on the virtual box and so this could show me a modern and complex page example afterwards.
 
 The commands were:
-## wget -c http://wordpress.org/latest.tar.gz
-## tar -xzvf latest.tar.gz
-## sudo rsync -av wordpress/* /var/www/html/
-## sudo chown -R www-data:www-data /var/www/html
-## sudo chown -R www-data:www-data /var/www/html
+# wget -c http://wordpress.org/latest.tar.gz
+# tar -xzvf latest.tar.gz
+# sudo rsync -av wordpress/* /var/www/html/
+# sudo chown -R www-data:www-data /var/www/html
+# sudo chown -R www-data:www-data /var/www/html
 
 ### CREATE A MYSQL DATABASE FOR WORDPRESS 
 
 Before we can run Wordpress we need to set up a MySQL database for it. Enter the following command to open MySQL:
-## mysql -u root -p 
+# mysql -u root -p 
 
 With MySQL now open enter the following commands line by line to create your database. Make sure you use a strong and secure password. 
-## CREATE DATABASE wp_project; GRANT ALL PRIVILEGES ON wp_project.* TO ‘your_username_here’@’localhost’ IDENTIFIED BY ‘your_chosen_password_here’; 
+# CREATE DATABASE wp_project; GRANT ALL PRIVILEGES ON wp_project.* TO ‘your_username_here’@’localhost’ IDENTIFIED BY ‘your_chosen_password_here’; 
 
-## FLUSH PRIVILEGES; 
+# FLUSH PRIVILEGES; 
 
-## EXIT; 
+# EXIT; 
 
 We can restart the web server and MySQL service to allow changes to take effect. 
 
-## sudo systemctl restart apache2.service 
-## sudo systemctl restart Mysql.Service 
+# sudo systemctl restart apache2.service 
+# sudo systemctl restart Mysql.Service 
 
 Go to the address http://localhost:80/wp-config-sample.php 
 
