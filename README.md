@@ -67,7 +67,7 @@ C.	We also want to start the service now by entering the command:
 
 D.	Check that the apache server is running. To see that our VM is visible from our host. Need to turn off our VM and change the configuration in our virtual network adapter. Go to the setting, then go to the network, choose the advanced option and last part click on port forwarding. After being there we must add a new file called apache with a host post the 80 and then accept.
 
-E.	The last step was to access the default homepage the apache homepage by typing http://localhost:80 into your Browser.
+E.	The last step was to access the default homepage the apache homepage by typing # http://localhost:80 into your Browser.
 To be all the configurations correctly the page must load and show that it works correctly, however apache is just for simple and basic 
 web pages, if we wanted to get modern and complex pages we had to continue with a few more steps.
 
