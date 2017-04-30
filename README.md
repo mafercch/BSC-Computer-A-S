@@ -151,3 +151,7 @@ The first steps seemed to me very easy and fast, the only thing that I had to wr
 The second time I did it inside the written guide given by the tutor recommended writing the user data and password, but, for not having read carefully and with patience, I had to go back to do the whole installation process. It would be another thing to take into account that is to carefully read every step and recommendation. 
 
 The last part of the installation cost me to finish the process and block me because I could not get good results, other classmates happened the same to them but they looked for information on the internet, to continue with the process while they continued I just stuck in that I could not, but, with the help of other classmates, I could finish my project, which would avoid blocking my mind or stressing me knowing that on the internet we can search for information to solve any type of problem with respect to the subject.
+
+### CONCLUSION 
+
+The page was created thanks to the steps given in classes, this had a great importance for the elaboration and the process of it and thus surpassing each challenge that was presented and obtaining new knowledge already explained in the report.
