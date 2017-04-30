@@ -40,7 +40,9 @@ GitHub is a platform that uses the Git version system to host projects, the code
 #### DEPLOYMENT OF A LAMP STACK ON YOUR UBUNTU SERVER.
 
 In the second practice classes for the elaboration of the project we had as objective the installation of Apache web-server and MySQL.
-a web service is a software interface that describes a set of operations that can be accessed by the network through standardized XML messaging. Uses protocols based on the XML language with the objective of describing an operation to execute or data to interchange with another web service.  
+
+Web-service is a software interface that describes a set of operations that can be accessed by the network through standardized XML messaging. Uses protocols based on the XML language with the objective of describing an operation to execute or data to interchange with another web service.  
+
 Apache is an open source HTTP web server for Unix platforms (BSD, GNU / Linux, etc.), Microsoft Windows, Macintosh and others, which implements the HTTP / 1.1 protocol and the notion of virtual site.
 
 - Apache Web-server installation.
