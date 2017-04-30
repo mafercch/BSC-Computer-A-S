@@ -76,7 +76,7 @@ C.	 We can enforce a password strength policy. For a production environment, a s
 
 The last part of this practice class consists of making a last installation so that the configuration of the modern and complex page was successful.
 
-3.	INSTALL PHP AND MODULES.
+### INSTALL PHP AND MODULES.
 
 PHP is an open source server-side scripting language mainly used for web development. It allows web developers to create dynamic, interactive websites.
 
