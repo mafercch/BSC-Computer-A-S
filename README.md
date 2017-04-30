@@ -67,7 +67,7 @@ C.	We also want to start the service now by entering the command:
 
 D.	Check that the apache server is running. To see that our VM is visible from our host. Need to turn off our VM and change the configuration in our virtual network adapter. Go to the setting, then go to the network, choose the advanced option and last part click on port forwarding. After being there we must add a new file called apache with a host post the 80 and then accept.
 
-E.	The last step was to access the default homepage the apache homepage by typing # http://localhost:80 into your Browser.
+E.	The last step was to access the default homepage the apache homepage by typing http://localhost:80 into your Browser.
 To be all the configurations correctly the page must load and show that it works correctly, however apache is just for simple and basic 
 web pages, if we wanted to get modern and complex pages we had to continue with a few more steps.
 
@@ -76,9 +76,11 @@ web pages, if we wanted to get modern and complex pages we had to continue with 
 MySQL is an open source Database program. It’s vital for many features of modern websites to maintain databases for purposes such as allowing users to login, saving any user generated input to the website e.g. posts on a forum etc.
 To carry out the installation it was necessary to follow the given steps in class.
 
-A.	To install our MySQL database server run the following command: sudo apt-get install mysql-client mysql-server.
+A.	To install our MySQL database server run the following command: 
+# sudo apt-get install mysql-client mysql-server.
 
-B.	Our database is not yet secure. As we are not configuring a website for a production environment then security is of less importance. However, if we should run the following command to see how security would normally be configured: Sudo mysql_secure_installation.
+B.	Our database is not yet secure. As we are not configuring a website for a production environment then security is of less importance. However, if we should run the following command to see how security would normally be configured: 
+# Sudo mysql_secure_installation.
 
 C.	 We can enforce a password strength policy. For a production environment, a strong password is very important, however for our testing environment we can choose the settings which will make our environment easier to get up and running. For most of these settings I would advise selecting No in our testing environment as we’re prioritising convenience over security. If you change the root password make sure you take a note of it. Choose yes to reload privilege tables, so any changes take effect now.
 
